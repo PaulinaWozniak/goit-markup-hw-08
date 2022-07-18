@@ -1,0 +1,56 @@
+.head__title{
+    width: 365px;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $color-white;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0 30px;
+    @media screen and (min-width:1200px){
+     width: 696px;
+     font-size: 44px;
+     line-height: 60px;
+     padding: 106px 0 30px;
+    }
+    }
+
+.section__title {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 42px;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: $color-gray;
+     padding-bottom:50px;
+}
+.social__title{
+    font-weight: 700;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: $color-white;
+     padding-bottom: 20px;
+     text-align: center; 
+
+     @media screen and (min-width:1200px){
+     text-align: start;    
+     }
+   
+     
+}
+.form__title {
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 23px;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: $color-gray;
+     padding: 40px 40px 30px;
+     }

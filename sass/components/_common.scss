@@ -1,0 +1,38 @@
+body {
+  font-family: $logo-font;
+  font-family: $primary-font;
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  img {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .link {
+    text-decoration: none;
+    color:$color-accent;
+  }
+}
+section {
+  @media screen and (min-width: 480px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      }
+  @media screen and (min-width: 768px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      }
+  @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      }
+}
