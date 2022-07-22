@@ -16,6 +16,11 @@
     line-height: 31px;
 }
 &--light {
+    @media screen and (max-width: 320px) {
+        display: flex;
+        justify-content: center;
+        
+    }
     @media screen and (min-width: 480px) {
         display: flex;
         justify-content: center;

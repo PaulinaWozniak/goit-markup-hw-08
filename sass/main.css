@@ -132,6 +132,12 @@ body .link {
   color: #2196f3;
 }
 
+@media screen and (max-width: 320px) {
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 @media screen and (min-width: 480px) {
   section {
     padding-top: 60px;
@@ -156,6 +162,11 @@ body .link {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -197,6 +208,11 @@ body .link {
   margin-left: auto;
   align-items: space-between;
 }
+@media screen and (max-width: 320px) {
+  .header .nav {
+    display: none;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .header .nav {
     display: none;
@@ -227,6 +243,11 @@ body .link {
 }
 .header .contact {
   display: flex;
+}
+@media screen and (max-width: 320px) {
+  .header .contact {
+    display: none;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 766px) {
   .header .contact {
@@ -290,6 +311,12 @@ body .link {
   display: flex;
   padding-top: 60px;
 }
+@media screen and (max-width: 320px) {
+  .logo--light {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 480px) {
   .logo--light {
     display: flex;
@@ -334,7 +361,7 @@ body .link {
 }
 @media screen and (min-width: 1200px) {
   .head {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.jpg");
     max-width: 1600px;
     height: 600px;
     top: 80px;
@@ -516,7 +543,7 @@ body .link {
 }
 @media screen and (min-width: 480px) {
   .clients .client__link {
-    width: 210px;
+    width: 200px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -547,12 +574,22 @@ body .link {
     margin-left: 30px;
   }
 }
+@media screen and (max-width: 320px) {
+  .grid .sizes {
+    transform: translate(-12%, 0%);
+  }
+}
 .grid__photos {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .grid__photos {
+    gap: 30px;
+  }
 }
 .grid__signature {
   position: relative;
@@ -565,6 +602,12 @@ body .link {
   letter-spacing: 0.04em;
   color: #212121;
   padding: 20px 24px 4px;
+}
+@media screen and (max-width: 320px) {
+  .grid__projects {
+    font-size: 16px;
+    line-height: 32px;
+  }
 }
 .grid__description {
   font-weight: 400;
@@ -591,8 +634,14 @@ body .link {
   border: 1px solid #eeeeee;
   background-color: #fff;
   list-style: none;
-  width: 450px;
+  width: 370px;
   height: 404px;
+}
+@media screen and (max-width: 320px) {
+  .boxes {
+    width: 280px;
+    height: 400px;
+  }
 }
 @media screen and (min-width: 767px) {
   .boxes {
@@ -632,11 +681,24 @@ body .link {
   letter-spacing: 0.03em;
   color: #fff;
 }
+@media screen and (max-width: 320px) {
+  .overlay__description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
 
 .social__icon {
   display: flex;
   align-items: center;
   padding: 0px 32px 18px;
+}
+@media screen and (min-width: 320px) {
+  .social__icon {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 @media screen and (min-width: 480px) {
   .social__icon {
@@ -674,6 +736,14 @@ body .link {
   flex-wrap: wrap;
   gap: 10px;
 }
+@media screen and (max-width: 320px) {
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .social {
     display: flex;
@@ -694,6 +764,14 @@ body .link {
   margin-left: auto;
   margin-right: auto;
   padding: 0px 0 30px;
+}
+@media screen and (max-width: 320px) {
+  .head__title {
+    width: 280px;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1200px) {
   .head__title {
@@ -744,6 +822,11 @@ body .link {
 .secondary-contact {
   background-color: #2f303a;
 }
+@media screen and (max-width: 320px) {
+  .secondary-contact {
+    height: 806px;
+  }
+}
 @media screen and (min-width: 480px) {
   .secondary-contact {
     height: 603px;
@@ -761,17 +844,29 @@ body .link {
 }
 
 .footer__list {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+@media screen and (max-width: 320px) {
+  .footer__list {
+    display: flex;
+    justify-content: center;
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .footer-section {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-section {
     width: 480px;
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-section {
     margin-left: 76px;
     margin-bottom: 60px;
@@ -790,6 +885,13 @@ body .link {
   padding-top: 20px;
   padding-bottom: 9px;
 }
+@media screen and (max-width: 320px) {
+  .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 480px) {
   .address {
     display: flex;
@@ -807,6 +909,12 @@ body .link {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-bottom: 9px;
+}
+@media screen and (max-width: 320px) {
+  .contact__link {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 480px) {
   .contact__link {
@@ -865,6 +973,11 @@ footer > .container {
   margin: 0;
   background-color: #2f303a;
 }
+@media screen and (max-width: 320px) {
+  .news__email {
+    width: 250px;
+  }
+}
 
 .backdrop {
   position: fixed;
@@ -892,6 +1005,11 @@ footer > .container {
   border-radius: 4px;
   transform: translate(-50%, -50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 320px) {
+  .modal {
+    width: 300px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -928,12 +1046,23 @@ label:focus-within {
   padding-left: 40px;
   padding-right: 40px;
 }
+@media screen and (max-width: 320px) {
+  .form__text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .form__icon {
   display: flex;
   position: absolute;
   top: 50%;
   left: 52px;
   outline: none;
+}
+@media screen and (max-width: 320px) {
+  .form__icon {
+    left: 35px;
+  }
 }
 
 input {
@@ -967,6 +1096,12 @@ textarea {
     height: 120px;
   }
 }
+@media screen and (max-width: 320px) {
+  textarea {
+    width: 260px;
+    height: 120px;
+  }
+}
 
 textarea:focus-within {
   border-color: #2196f3;
@@ -991,6 +1126,11 @@ textarea:focus-within {
   .modal-form-policy-text {
     padding: 20px 54px 0px;
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .modal-form-policy-text {
+    padding: 20px 20px 0px;
   }
 }
 
@@ -1029,6 +1169,11 @@ textarea:focus-within {
   padding-bottom: 48px;
   padding-left: 40px;
 }
+@media screen and (max-width: 320px) {
+  .menu-container {
+    padding-left: 20px;
+  }
+}
 
 .menu-button {
   display: block;
@@ -1061,6 +1206,11 @@ textarea:focus-within {
   width: 40px;
   height: 40px;
 }
+@media screen and (max-width: 320px) {
+  .menu-close-btn {
+    margin-left: 250px;
+  }
+}
 
 .mob-menu {
   position: fixed;
@@ -1086,6 +1236,11 @@ textarea:focus-within {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .mob-link {
     display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .mob-link {
+    font-size: 30px;
   }
 }
 
@@ -1114,6 +1269,11 @@ textarea:focus-within {
   color: #2196F3;
   text-decoration-line: none;
 }
+@media screen and (max-width: 320px) {
+  .mob-menu-contact-tel {
+    font-size: 25px;
+  }
+}
 
 .pmob-menu-contact-mail {
   font-weight: 500;
@@ -1122,6 +1282,11 @@ textarea:focus-within {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration-line: none;
+}
+@media screen and (max-width: 320px) {
+  .pmob-menu-contact-mail {
+    font-size: 18px;
+  }
 }
 
 .mob-social-link {
@@ -1138,4 +1303,10 @@ textarea:focus-within {
   color: #2196F3;
   text-decoration-line: none;
   margin-right: 20px;
+}
+@media screen and (max-width: 320px) {
+  .mob-social-text {
+    margin-right: 15px;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
