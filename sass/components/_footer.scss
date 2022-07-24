@@ -1,13 +1,10 @@
 .secondary-contact{
     background-color: $bgc-footer;
-    @media screen and (max-width:320px) {
-        height: 806px;
-    }
-    @media screen and (min-width:480px){
-        height:603px;
+    @media screen and (min-width:320px) {
+        height: 706px;
     }
     @media screen and (min-width:767px){
-        height:463px;
+        height:420px;
     }
     @media screen and (min-width:1200px){
         height: 252px;
@@ -19,18 +16,14 @@
     flex-wrap: wrap;
     align-items: center;
 
-    @media screen and (max-width:320px){
-        display: flex;
-        justify-content: center;
+    // @media screen and (min-width:320px){
+    //     display: flex;
+    //     justify-content: center;
         
-    }
+    // }
 }
 .footer-section{
-    @media screen and (max-width:320px){
-        margin-bottom: 60px;
-    }
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        width: 480px;
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 60px;
     }
     @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -39,15 +32,9 @@
     }
 }
 .address{
-    @media screen and (max-width:320px){
+    @media screen and (min-width:320px){
         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    @media screen and (min-width:480px){
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-left: 10px;
     }
     justify-content: center;
     align-items: center;
@@ -59,17 +46,14 @@
     color: $color-white;
     padding-top: 20px;
     padding-bottom: 9px;
+    
   }
 .contact {
     &__link {
-        @media screen and (max-width:320px){
+        @media screen and (min-width:320px){
             display: flex;
             justify-content: center;
-        }
-        @media screen and (min-width:480px){
-            display: flex;
-            justify-content: center;
-            // align-items: center;
+            align-items: center;
         }
         @media screen and (min-width:1200px) {
             display: block;
@@ -94,7 +78,7 @@ footer>.container {
     align-items:center;
 }
 .social-item {
-    @media screen and (min-width: 480px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         width: 480px;
         margin-bottom: 60px;
         margin-left: 0;
@@ -130,7 +114,7 @@ footer>.container {
       padding: 15px 10px 15px 16px;
       margin: 0;
       background-color:$bgc-footer;
-      @media screen and (max-width:320px){
+      @media screen and (min-width:320px){
         width: 250px;
       }
     }
